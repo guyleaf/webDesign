@@ -304,7 +304,7 @@ h2 {
 
 .home .screenshot {
     display: block;
-    background-image: url("/img/screenshot-vscode.png");
+    background-image: url("../img/screenshot-vscode.png");
     margin-top: 70px;
     padding-bottom: 68.07131%;
     width: 100%;
