@@ -282,13 +282,15 @@ h2 {
 
 @media (max-width: 991px) {
     .home .row:first-child {
-        height: 1000px;
+        height: 900px;
+        padding: auto;
     }
 }
 
 .copy {
     text-align: center;
     margin-top: 8%;
+
 }
 
 .home h1 {
@@ -355,18 +357,18 @@ h2 {
 
 .download-btns .link-button {
     color: white;
-    padding: 10px 0;
+    padding: auto 0;
     font-size: 1.7rem;
     border-radius: 0px;
 }
 
 .download-btns .download-main {
-    height: 74px;
+    height: 60px;
     width: calc(100% - 48px);
 }
 
 .download-btns .download-dropdown {
-    height: 74px;
+    height: 60px;
     width: 43px;
     position: relative;
 }
@@ -512,7 +514,8 @@ footer {
     background-color: #333;
     font-size: 13px;
     color: white;
-    padding: 25px 0;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 
 footer .welcome {
